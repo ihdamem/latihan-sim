@@ -1,0 +1,83 @@
+.table {
+	font-family: Segoe UI, Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	border-collapse: collapse;
+	width: 65%;
+	border: #35a9db solid 1px;
+}
+
+.table tr th {
+	background: #35a9db;
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+}
+
+.table,
+th,
+td {
+	padding: 8px 20px;
+	text-align: center;
+}
+.editsiswa,
+th,
+td {
+	padding: 8px 20px;
+	text-align: left;
+}
+
+.table .head {
+	background-color: #466f91;
+	color: #ffffff;
+}
+
+button.user {
+	background-color: #35a9db;
+	height: 36px;
+	width: 100px;
+	border: none;
+	border-radius: 50px;
+	color: #ffffff;
+}
+button.logout {
+	background-color: #db3535;
+	height: 36px;
+	width: 86px;
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+}
+button.show {
+	background-color: #00ffff;
+	height: 36px;
+	width: 86px;
+	border: none;
+	border-radius: 50px;
+}
+button.edit {
+	background-color: #006eff;
+	height: 36px;
+	width: 86px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+}
+button.delete {
+	background-color: #ff0000;
+	height: 36px;
+	width: 86px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+}
+.grupbutton {
+	padding: 20px;
+}
+h2 {
+	color: rgb(0, 0, 0);
+}
+input {
+	border: 1px solid rgb(238, 169, 169);
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #e9f5fa;
+}
