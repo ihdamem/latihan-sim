@@ -1,6 +1,6 @@
 <?php
 
-class data extends CI_Controller
+class Data extends CI_Controller
 {
 
     function __construct()
@@ -54,7 +54,7 @@ class data extends CI_Controller
     public function edit($id_buku)
     {
 
-        $data['siswa'] = $this->data_model->get_data_by_id($id_buku)->row();
+        $data['buku'] = $this->data_model->get_data_by_id($id_buku)->row();
 
         $this->load->view('header', $data);
         $this->load->view('buku_edit', $data);

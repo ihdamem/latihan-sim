@@ -12,12 +12,14 @@
 <body>
     <div id="wrapper">
         <header>
-            <hgroup>
-                <h1 class="h1header"> Aplikasi Latihan SIM</h1>
-            </hgroup>
+            <img src="<?php echo base_url(); ?>assets/img/logo.png">
+            <a class="h1header">APLIKASI LATIHAN SIM</a>
             <nav>
                 <ul>
-                    <li><a href="<?php echo base_url(); ?>">Home</a></li>
+                    <li>
+                        <a href="<?php echo base_url(); ?>">Home</a>
+                    </li>
+
                     <li><a href="<?php echo base_url() . 'Homepage/login' ?>">Login</a></li>
                 </ul>
             </nav>

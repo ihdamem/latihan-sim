@@ -1,5 +1,5 @@
 <?php
-class userlogout extends CI_Controller
+class Userlogout extends CI_Controller
 {
 	public function index()
 	{

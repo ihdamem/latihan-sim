@@ -1,6 +1,6 @@
 <?php
 
-class user extends CI_Controller
+class User extends CI_Controller
 {
 
     function __construct()
@@ -52,7 +52,7 @@ class user extends CI_Controller
 
     public function edit($id_anggota)
     {
-        $data['user'] = $this->dataanggota->get_data_by_id($id_anggota)->row();
+        $data['anggota'] = $this->dataanggota->get_data_by_id($id_anggota)->row();
 
         $this->load->view('header', $data);
         $this->load->view('user_edit', $data);
@@ -88,7 +88,7 @@ class user extends CI_Controller
             'id_anggota' => $id_anggota
         );
 
-        $this->datauser->update_data($where, $data, 'anggota');
+        $this->dataanggota->update_data($where, $data, 'anggota');
         redirect('user/show');
     }
 }

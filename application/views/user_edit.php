@@ -12,7 +12,7 @@
 		<div class="content">
 			<h2>Edit Data User</h2>
 			<form method="post" action="<?= base_url('user/update'); ?>">
-				<input type="hidden" name="id" value="<?= $anggota->id; ?>">
+				<input type="hidden" name="id_anggota" value="<?= $anggota->id_anggota; ?>">
 				<table class="table">
 					<tr>
 						<td>Kode Anggota </td>

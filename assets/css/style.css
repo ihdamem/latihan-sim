@@ -13,17 +13,24 @@ body {
 	color: rgb(255, 255, 255);
 }
 #wrapper {
-	background-color: #131111;
+	background-color: #944343;
 	opacity: 0.8;
 	width: auto;
 	margin: 20px auto;
 }
 #wrapper header {
 	padding: 20px;
+	color: azure;
+}
+#wrapper header img {
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: -33px;
+	margin-right: 20px;
 }
 wrapper header hgroup {
 	float: left;
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 wrapper header nav {
 	float: right;

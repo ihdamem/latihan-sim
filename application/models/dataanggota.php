@@ -1,6 +1,6 @@
 <?php
 
-class dataanggota extends CI_Model
+class Dataanggota extends CI_Model
 {
     function cek_login($table, $where)
     {

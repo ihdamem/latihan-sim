@@ -1,5 +1,5 @@
 <?php
-class userlogin extends CI_Controller
+class Userlogin extends CI_Controller
 {
 	public function index()
 	{

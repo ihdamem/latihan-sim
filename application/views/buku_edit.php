@@ -11,7 +11,7 @@
         <div class="content">
             <h2>Form Edit Data Anggota</h2>
             <form method="post" action="<?= base_url('data/update'); ?>">
-                <input type="hidden" name="id" value="<?= $buku->id_buku; ?>">
+                <input type="hidden" name="id_buku" value="<?= $buku->id_buku; ?>">
                 <table class="table">
                     <tr>
                         <td>Nama</td>

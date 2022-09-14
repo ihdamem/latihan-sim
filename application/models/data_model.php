@@ -1,6 +1,6 @@
 <?php
 
-class data_model extends CI_Model
+class Data_model extends CI_Model
 {
 
     public function get_data()
@@ -9,7 +9,7 @@ class data_model extends CI_Model
     }
     public function get_data_by_id($id_buku)
     {
-        return $this->db->get_where('siswa', array('id_buku' => $id_buku));
+        return $this->db->get_where('buku', array('id_buku' => $id_buku));
     }
     public function insert_data($data)
     {
